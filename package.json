@@ -1,0 +1,16 @@
+{
+    "name": "mi-app-escritorio",
+    "version": "1.0.0",
+    "description": "app para escritori",
+    "main": "index.js",
+    "scripts": {
+        "test": "electron .",
+        "dist": "electron-builder -w"
+    },
+    "author": "juan gabriel al",
+    "license": "ISC",
+    "devDependencies": {
+        "electron": "^16.0.2",
+        "electron-builder": "^22.14.5"
+    }
+}
